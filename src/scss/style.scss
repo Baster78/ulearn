@@ -1,3 +1,18 @@
-h1 {
-	color: red;
+@import 'vars/mixins';
+@import 'vars/vars';
+
+// import blocks
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+
+* {
+	font-family: 'MuseoModerno', sans-serif;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
 }
