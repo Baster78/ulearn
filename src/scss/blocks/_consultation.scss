@@ -10,4 +10,15 @@
 		font-weight: 500;
 		line-height: 30px; /* 150% */
 	}
+
+	.error {
+		border: 1px solid red;
+	}
+
+	label.error {
+		color: #fff;
+		border: none;
+		margin-bottom: 15px;
+		text-align: center;
+	}
 }
