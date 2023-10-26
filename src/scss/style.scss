@@ -1,3 +1,4 @@
+@import 'base/bootstrap-reboot';
 @import 'vars/mixins';
 @import 'vars/vars';
 
@@ -15,6 +16,7 @@
 @import 'blocks/feedbacks';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
 
 * {
 	font-family: 'MuseoModerno', sans-serif;

@@ -17,7 +17,7 @@
 	</head>
 
 	<body>
-		<section class="promo">
+		<section class="promo" id="up">
 			<div class="container">
 				<header class="header">
 					<a href="#" class="header__logo">
@@ -109,7 +109,7 @@
 				<form class="feed-form" id="consultation-form" action="#">
 					<input name="name" required type="text" placeholder="Ваше имя" />
 
-					<input name="phone" required type="number" placeholder="Ваш телефон" />
+					<input name="phone" required placeholder="Ваш телефон" />
 
 					<input name="email" required type="email" placeholder="Ваш E-mail" />
 
@@ -519,7 +519,7 @@
 				<form class="feed-form feed-form_mt25" action="#">
 					<input name="name" type="text" placeholder="Ваше имя" />
 
-					<input name="phone" type="number" placeholder="Ваш телефон" />
+					<input name="phone" placeholder="Ваш телефон" />
 
 					<input name="email" type="email" placeholder="Ваш E-mail" />
 
@@ -534,7 +534,7 @@
 				<form class="feed-form feed-form_mt25" action="#">
 					<input name="name" required type="text" placeholder="Ваше имя" />
 
-					<input name="phone" required type="number" placeholder="Ваш телефон" />
+					<input name="phone" required placeholder="Ваш телефон" />
 
 					<input name="email" required type="email" placeholder="Ваш E-mail" />
 
@@ -549,10 +549,15 @@
 			</div>
 		</div>
 
+		<a href="#up" class="pageup"
+			><img src="images/circle-chevron-up-solid.svg" alt="pageup" class="page-up"
+		/></a>
+
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
